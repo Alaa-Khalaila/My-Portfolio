@@ -16,7 +16,7 @@ const Projects = () => {
                         <img src={proj1} alt="" />
                         <h3>Project : Grade-A</h3><br/>
                         <ul>
-                            <li>Tools ( HTML, CSS, React.js, Node.js, MySQL )</li>
+                            <li>Technologies ( HTML, CSS, React.js, Node.js, MySQL )</li>
                             <li>Made by Team of 4 developers</li>
                             <li>Educational web that you can upload orenroll in online courses</li>
                             <li><a href="https://github.com/Alaa-Khalaila/Grade-A">Repo Code Link</a></li><br/><br/>
@@ -28,7 +28,7 @@ const Projects = () => {
                         <img src={proj2} alt="" />
                         <h3>Project : Interview-Questions</h3><br/>
                         <ul>
-                            <li>Tools ( HTML , CSS , React )</li>
+                            <li>Technologies ( HTML , CSS , React )</li>
                             <li>Made to help fresh web developers topass interview questions</li>
                             <li>Easy and simple to use</li>
                             <li><a href="https://interview-questions112.netlify.app/">Online Preview Link</a></li>

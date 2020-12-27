@@ -206,3 +206,32 @@ nav{
 .front h3{
     margin-left: 10px;
 }
+
+/*-----------------Skills--------------------*/
+
+.skills-bg{
+    height: 87vh;
+    width: 100%;
+    background-image: url(./components/pics/skills.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.skills{
+    width: 56%;
+    height: 63vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    
+
+}
+
+.skills ul li{
+    margin-top: 10px;
+    list-style: none;
+    font-family: 'Langar', cursive;
+    font-size: large;
+}
