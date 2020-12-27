@@ -27,12 +27,12 @@ nav{
     margin: 10px 20px;
 }
 
-.list ul li a{
+.list ul a li {
     text-decoration: none;
     color: #606163;
 }
 
-.list ul li a:hover{
+.list ul a li:hover{
     color: #ff4321;
 }
 
@@ -128,9 +128,9 @@ nav{
 .img-border:hover, .img-box:hover    {
     cursor: pointer;
 }
-.about-cont h5{
+.about-cont h4{
     color: #667080;
-    line-height: 17px;
+    line-height: 24px;
 }
 
 .about-cont h4{
@@ -139,8 +139,8 @@ nav{
 .about-cont a{
     text-decoration: none;
     background-color: #652589;
-    padding: 10px 15px;
-    width: 26%;
+    padding: 10px 25px;
+    width: 20%;
     color: #ffffff;
     border-radius: 4px;
 }
@@ -154,4 +154,55 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+/******* Projects************/
+
+.proj-cont{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-title{
+    margin: 2% 0 2% 42%;
+}
+
+.project-imges{
+    display: flex;
+    height: 200px;
+}
+
+.project-imges img{
+    width: 90%;
+    height: 120%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.front ul li{
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #667080
+}
+
+.front ul li a{
+    text-decoration: none;
+    color: #667080
+}
+
+.front{
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.project1{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.front h3{
+    margin-left: 10px;
 }

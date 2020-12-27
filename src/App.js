@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Projects from './components/Projects';
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,9 @@ export default class App extends Component {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/projects">
+            <Projects/>
           </Route>
 
         </Router>
