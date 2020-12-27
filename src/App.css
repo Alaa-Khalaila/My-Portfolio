@@ -104,3 +104,54 @@ nav{
     cursor: pointer;
     color: #ff4321;
 }
+
+/*---------About-------------*/
+
+.about-cont{
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-border{
+    width: 400px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.about-img{
+    margin-left: 50px;
+}
+
+.img-border:hover, .img-box:hover    {
+    cursor: pointer;
+}
+.about-cont h5{
+    color: #667080;
+    line-height: 17px;
+}
+
+.about-cont h4{
+    color: #4a515c;
+}
+.about-cont a{
+    text-decoration: none;
+    background-color: #652589;
+    padding: 10px 15px;
+    width: 26%;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.about-cont a:hover{
+    background-color: #191A35;
+}
+
+.about-text{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
