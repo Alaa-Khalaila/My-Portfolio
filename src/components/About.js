@@ -1,5 +1,6 @@
 import React from 'react'
 import about from './pics/about.png'
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
                  I'm big fan of Friends series and I can't end my day without whatching it <br />
                   I build Websites for fun and I'm trying to make it my main Job<br />
                    if you want to contact with me press the button!</h4>
-                <a href="#">CONTACT ME</a>
+                <Link to="/contact">CONTACT ME</Link>
             </div>
             <div className="img-border">
                 <img src={about} alt="about-img" className="about-img" />
