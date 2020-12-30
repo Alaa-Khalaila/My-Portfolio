@@ -9,7 +9,7 @@ const Home = () => {
                 <h1>I'm <span>Alaa</span> Khalila</h1>
                 <p>A Software Engineer who builds a fully websites with beautiful interactive interface<br/>
                     desgins, I build to help businesses to do better online. </p>
-                <a href="https://www.docdroid.net/9BbUyld/alaa-cv-pdf" download>Download CV</a>
+                <a href="https://www.docdroid.net/hWXbwtX/alaa-khalila-v02-pdf" download>Download CV</a>
             </div>
 
             <div className="img-box">
