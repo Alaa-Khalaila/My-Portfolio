@@ -9,7 +9,7 @@ const Contact = () => {
                 <div>
                     <a><i class="fas fa-map-marked-alt"></i></a>
                     <h2>Address</h2>
-                    <h4>Jordan, Zarqa, Jaish Str</h4>
+                    <h4>Jordan, Amman, Tabarbour </h4>
                 </div>
                 <div>
                     <a><i class="fas fa-phone-alt"></i></a>
